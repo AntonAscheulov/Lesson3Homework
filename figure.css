@@ -1,0 +1,90 @@
+.figure{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+}
+
+.circle1{
+    border-radius: 50%;
+    background-color: red;
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.circle2{
+    border-radius: 50%;
+    background-color: red;
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.circle3{
+    border-radius: 50%;
+    background-color: red;
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+.circle4{
+    border-radius: 50%;
+    background-color: red;
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+.box1{
+    background-color: blue;
+    width: 70%;
+    height: 70%;
+    position:absolute;
+    right: 15%;
+    bottom: 15%;
+}
+
+.box2{
+    background-color: orange;
+    width: 30%;
+    height: 30%;
+    border-radius: 20%;
+    position:absolute;
+    right: 35%;
+    bottom: 35%;
+}
+
+.circle1:hover {
+    background-color: green;
+    z-index: 1;
+}
+
+.circle2:hover {
+    background-color: aquamarine;
+    z-index: 1;
+}
+
+.circle3:hover {
+    background-color: gold;
+    z-index: 1;
+}
+
+.circle4:hover {
+    background-color: grey;
+    z-index: 1;
+}
+
+.box1:hover {
+    background-color: orchid;
+    z-index: 1;
+}
